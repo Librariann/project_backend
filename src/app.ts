@@ -10,4 +10,8 @@ app.get('/', (req, res) => {
   res.send('Hello Express!');
 });
 
+app.get('/test/1', (req, res) => {
+  res.send('router test');
+});
+
 export default app;
